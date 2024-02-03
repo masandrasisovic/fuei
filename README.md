@@ -13,14 +13,8 @@ on:
           - '--prerelease'
           - '--graduate'
 
-jobs:
-  create_release:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.BOT_ACCESS_TOKEN }}
+fgh7657uhbjgmhgf
+gbjnfhgmngcmvc
           fetch-depth: 0
       - name: Setup git
         run: |
